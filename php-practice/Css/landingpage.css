@@ -1,0 +1,217 @@
+*{
+    font-family: "Playfair Display", "Open Sans", sans-serif;
+}
+.title-nav span{
+    font-weight: 600;
+}
+a:hover {
+    color: white;
+  }
+.js{
+    justify-content: right;
+}
+h1 {
+    font-weight: 400;
+    font-size: 6rem;
+}
+
+h2 {
+    font-weight: 200;
+}
+h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    margin-top: 4rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Poppins";
+}
+.bg-color{
+    background-color: hsl(229, 100%, 59%);
+}
+.container.hero {
+    text-align: center;
+    margin: 10vh auto 60px auto;
+}
+.cta{
+    width: 330px;
+    display: inline-block;
+    /* background: url() no-repeat 35px center hsl(229, 100%, 59%); */
+    background: hsl(229, 100%, 59%);
+    background-size: 20px;
+    font-size: 18px;
+    color: #fff;
+    height: 64px;
+    line-height: 64px;
+    border-radius: 100px;
+    text-align: center;
+    transition: background-color .3s;
+    font-weight: 400;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+/* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  } */
+.feedSlide {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    margin-top: 80px;
+    cursor: pointer;
+    /* margin-left: -80px; */
+    /* margin-right: -80px; */
+    margin-bottom: 2rem;
+}
+  
+.feedSlide .scroll {
+    background-size: auto 100%;
+    width: 100vw;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    animation: scrollGrid 180s linear infinite;
+    height: 100%;
+    background-image: url('../Assets/slideimage.png');
+}
+
+@keyframes scrollGrid {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -2420px 0;
+    }
+}
+.sideimage img{
+    width: 40vw;
+}
+footer{
+    margin-top: 4rem;
+    height: 0rem;
+}
+footer .bg-color {
+    height: 4rem;
+    background-color: hsl(229, 100%, 59%);
+    color:#fff;
+}
+
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 769px) {
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    p {
+        font-size: 12px;
+    }
+    footer {
+        margin-top: 4rem;
+        height: 0rem;
+    }
+    footer .bg-color {
+        height: 3rem;
+    }
+   }
+
+@media only screen and (max-width: 426px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        margin-top: 0rem;
+        line-height: 1rem;
+        margin-bottom: 1rem;
+    }
+    .cta {
+        width: 110px;
+        background-size: 20px;
+        font-size: 10px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 2vh;
+        margin-bottom: -5vh;
+    }
+    .sideimage img{
+        width: 90vw;
+    }
+    p {
+        font-size: 12px;
+    }
+    .mb-5{
+        margin-bottom: 1rem!important;
+    }
+    footer {
+        margin-top: 4rem;
+        height: 0rem;
+    }
+   }
+
+
+@media only screen and (max-width: 320px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        margin-top: 0rem;
+        line-height: 1rem;
+        margin-bottom: 1rem;
+    }
+    .cta {
+        width: 110px;
+        background-size: 20px;
+        font-size: 10px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 2vh;
+        margin-bottom: -5vh;
+    }
+    .sideimage img{
+        width: 90vw;
+    }
+    p {
+        font-size: 12px;
+    }
+    .mb-5{
+        margin-bottom: 1rem!important;
+    }
+    footer {
+        margin-top: 4rem;
+        height: 0rem;
+    }
+  }
