@@ -1,0 +1,134 @@
+*{
+    font-family: "Playfair Display", "Open Sans", sans-serif;
+}
+.title-nav span{
+    font-weight: 600;
+}
+a:hover {
+    color: white;
+  }
+.js{
+    justify-content: right;
+}
+.bg-color{
+    background-color: #3a8bcd;
+}
+
+.txt-color-white{
+    color: #fff;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+.box {
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    max-width: 300px;
+    border-radius: 8px;
+    border-color: #3a8bcd;
+}
+.rounded_border{
+    border-bottom-left-radius: 16px !important ;
+    border-bottom-right-radius: 16px !important ;
+}
+.card {
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    height: 60vh;
+}
+
+.usernameStyle{
+    padding: 4px 64px 4px 4px;
+    font-size: smaller;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-top: 0px solid;
+    /* border-radius: 8px; */
+    border-color:#3a8bcd;
+}
+.passwordStyle{
+    padding: 4px 64px 4px 4px;
+    font-size: smaller;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-top: 0px solid;
+    /* border-radius: 8px; */
+    border-color:#3a8bcd;
+}
+.showPassword{
+    display: inline;
+    position: absolute;
+    left: auto;
+    border: none;
+    background-color: inherit;
+    right: 36px;
+}
+input:focus{
+    outline: none;
+}
+button:focus { 
+    outline: none;
+}
+.fa-eye, .fa-eye-slash{
+    color: #3a8bcd;
+}
+.inner{
+    position: relative;
+    right: 10px;
+    width: 250px;
+}
+.inner span{
+    font-size: 12px;
+}
+.inner .span2{
+    margin-left: 20px;
+}
+.btn-login-width{
+    width: 100px;
+}
+.cardfooter{
+    font-size: smaller;
+    height: 36px;
+    border-color: #3a8bcd;
+}
+
+.cardfooter span{
+    color:  #3a8bcd;
+}
+
+.btn-primary {
+    background-color: #3a8bcd;
+}
+
+footer{
+    height: 4rem;
+}
+footer .bg-color {
+    height: 4rem;
+    background-color: #3a8bcd;
+    color:#fff;
+}
+
+footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Poppins";
+}
+
+
+
+a:hover{
+ color: #3a8bcd;
+ text-decoration: none;
+}
+
+
+
