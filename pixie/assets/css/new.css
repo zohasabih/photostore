@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.card-img-top {
+    padding: 40px;
+}
+.priceBox{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 15px;
+}
+input:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
